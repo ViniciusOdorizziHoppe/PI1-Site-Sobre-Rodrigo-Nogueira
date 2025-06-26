@@ -1,5 +1,50 @@
 body {
-    background-color: black;
+    background: linear-gradient(to right,#06121D,#6582AA);
+}
+header {
+    position: relative;
+    top: -10px;
+    height: 50px;
+    width: 100vw;
+    background-color: #06121D;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.li-1:hover {
+    transform: scale(1.2);
+    color: #4B6387;
+}
+.li-2:hover {
+    transform: scale(1.2);
+    color: #4B6387;
+}
+.li-3:hover {
+    transform: scale(1.2);
+    color: #4B6387;
+}
+.li-4:hover {
+    transform: scale(1.2);
+    color: #4B6387;
+}
+.li-5:hover {
+    transform: scale(1.2);
+    color: #4B6387;
 }
 
 
+
+/*
+Paleta de Cores Tons mais claros até mais escuros :
+#6582AA
+#4B6387
+#334663
+#1E2B40
+#06121D
+*/
