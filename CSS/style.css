@@ -1,13 +1,15 @@
 body {
-    background: linear-gradient(to right,#06121D,#6582AA);
+    background-color: white;
 }
 header {
     position: relative;
     top: -10px;
+    left: -10px;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: #06121D;
     padding: 10px;
+    
 }
 ul {
     display: flex;
@@ -37,9 +39,34 @@ ul {
     transform: scale(1.2);
     color: #4B6387;
 }
+section {
+    width: 101.3%;
+    height: 700px;
+    background: linear-gradient(to right,#06121D,#6582AA);
+    position: relative;
+    top: -50px;
+    left: -10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/*h1 {
+    color: #ffffff;
+    font-size: 3em;
+    position: relative;
+    top: 200px;
+    left: 800px;
+    margin: 0;
+}
+.foto-rodrigo {
+    margin: 0px;
+    position: relative;
+    top: 55px;
+    height: 550px;
+}
 
 
-
+*/
 /*
 Paleta de Cores Tons mais claros até mais escuros :
 #6582AA
