@@ -1,77 +1,67 @@
-body {
-    background-color: white;
+html {
+    scroll-behavior: smooth;
 }
-header {
-    position: relative;
-    top: -10px;
-    left: -10px;
-    height: 50px;
+header{
     width: 100%;
-    background-color: #06121D;
-    padding: 10px;
-    
+    height: 60px;
+    background-color: #122b52;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 ul {
     display: flex;
     justify-content: space-around;
-    color: #ffffff;
     list-style: none;
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
 }
-.li-1:hover {
-    transform: scale(1.2);
-    color: #4B6387;
+ul:hover {
+    cursor: pointer;
 }
-.li-2:hover {
-    transform: scale(1.2);
-    color: #4B6387;
+li {
+    color: #d7d9ea;
+    
 }
-.li-3:hover {
-    transform: scale(1.2);
-    color: #4B6387;
-}
-.li-4:hover {
-    transform: scale(1.2);
-    color: #4B6387;
-}
-.li-5:hover {
-    transform: scale(1.2);
-    color: #4B6387;
-}
-section {
-    width: 101.3%;
-    height: 700px;
-    background: linear-gradient(to right,#06121D,#6582AA);
-    position: relative;
-    top: -50px;
-    left: -10px;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-}
-/*h1 {
-    color: #ffffff;
-    font-size: 3em;
-    position: relative;
-    top: 200px;
-    left: 800px;
+body {
     margin: 0;
+    padding-top: 60px;
+    background-color: #0b1d3a;
 }
-.foto-rodrigo {
-    margin: 0px;
-    position: relative;
-    top: 55px;
-    height: 550px;
+h1 {
+    margin-top:60px;
+    color: #d7d9ea;
+}
+a {
+    color: #d7d9ea;
+    text-decoration: none;
 }
 
-
-*/
-/*
-Paleta de Cores Tons mais claros até mais escuros :
-#6582AA
-#4B6387
-#334663
-#1E2B40
-#06121D
-*/
+h2 {
+    color: #d7d9ea;
+    margin-top: 300px;
+}
+p {
+    color: #d7d9ea;
+}
+* {
+font-family: "Merriweather", serif;
+}
+.inicio {
+    display: flex;
+}
+.quem-e {
+    display: flex;
+}
+.onde-atua {
+    display: flex;
+}
+.formações {
+    display: flex;
+}
+.projetos {
+    display: flex;
+}
+.curiosidades{
+    display: flex;
+}
