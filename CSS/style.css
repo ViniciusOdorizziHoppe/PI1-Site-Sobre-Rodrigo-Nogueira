@@ -4,6 +4,11 @@ font-family: "Merriweather", serif;
 html {
     scroll-behavior: smooth;
 }
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-color: #0b1d3a;
+}
 header{
     width: 100%;
     height: 60px;
@@ -12,6 +17,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 10;
 }
 ul {
     display: flex;
@@ -20,15 +26,14 @@ ul {
 }
 ul:hover {
     cursor: pointer;
+    
 }
 li {
     color: #d7d9ea;
     
 }
-body {
-    margin: 0;
-    padding-top: 60px;
-    background-color: #0b1d3a;
+li:hover {
+    filter: drop-shadow(1px 1px white)
 }
 h1 {
     font-size: 60px;
@@ -36,12 +41,13 @@ h1 {
     margin-top:60px;
     color: #d7d9ea;
     position: relative;
-    top: 100px;
-    left: 30px;
+    top: 200px;
+    left: 80px;
     z-index: -1;
 }
 img {
-    border-radius: 25%;
+    height:  500px;
+    border-radius: 50%;
     position: relative;
     top: 60px;
     left: 200px;
@@ -72,14 +78,39 @@ p {
     font-size: 20px;
     position: relative;
     top: 100px;
-    margin: 0 100px 0 100px;
+    right: 200px;
+    margin: 0px;
+    padding: 60px;
+}
+video {
+    position: relative;
+    height: 500px;
+    right: 130px;
+    z-index: 0;
+}
+.video {
+    display: flex;
+}
+.parag-video {
+    font-size: 20px;
+    position: relative;
+    top: -100px;
+    left: 320px;
+}
+.parag-dois {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    right: 100px;
+    margin: 0px 200px 0px 120px;
 
 }
 .inicio {
     display: flex;
     height: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 250px;
 }
+
 .quem-e {
     display: flex;
     height: 400px;
@@ -89,6 +120,7 @@ p {
 .onde-atua {
     display: flex;
     height: 400px;
+    margin-top: 200px;
     margin-bottom: 60px;
 }
 .formações {
@@ -109,4 +141,7 @@ p {
 }
 .combullet {
     list-style: disc ;
+}
+strong {
+    color: #001aff ;
 }
