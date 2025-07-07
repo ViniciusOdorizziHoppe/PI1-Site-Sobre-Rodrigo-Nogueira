@@ -103,7 +103,27 @@ video {
     top: 80px;
     right: 100px;
     margin: 0px 200px 0px 120px;
-
+}
+.parag-tres {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    right: 60px;
+    margin: 0px 120px 80px 0px ;
+}
+.parag-quatro {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    right: 150px;
+    margin: 0px 120px 80px 0px ;
+}
+.parag-cinco {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    right: 110px;
+    margin: 0px 120px 80px 0px ;
 }
 .inicio {
     display: flex;
@@ -126,22 +146,31 @@ video {
 .formações {
     display: flex;
     height: 400px;
-    margin-bottom: 60px;
-
+    margin-bottom: 0px 60px 60px 0px;
+    position: relative;
+    
 }
 .projetos {
     display: flex;
     height: 400px;
     margin-bottom: 60px;
+    position: relative;
+    top: 15;
 }
 .curiosidades{
     display: flex;
     height: 400px;
     margin-bottom: 60px;
+    
 }
-.combullet {
-    list-style: disc ;
-}
+
 strong {
     color: #001aff ;
+}
+.combullet{
+    display: flex;
+    list-style: disc;
+    position: relative;
+    top: -100px;
+    margin: 0px 60px 0px 60px;
 }
